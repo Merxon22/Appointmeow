@@ -4,15 +4,15 @@
 # How to setup Appoiontmeow:
 Appointmeow is a webapp based on python Flask and Javascript React.
 
-## Basic requirement:
+### Basic requirement:
 Python == 3.9.5
 
-## Step 1:
+### Step 1:
 1. Install [Node JS](https://nodejs.org)
 2. Install [Yarn](https://classic.yarnpkg.com/en/docs/install)
 
-## Step 2:
-1. Clone the github repository to **./Appointmeow** directory
+### Step 2:
+1. Clone the github repository to **./Appointmeow** directory.
 
    `git clone https://github.com/Merxon22/Appointmeow.git ./Appointmeow`
 
@@ -20,7 +20,7 @@ Python == 3.9.5
 
    `npx create-react-app appointmeow`
 
-   ***###Note that the git repository is cloned to "./Appointmeow" and the React app is created in "./appointmeow". This is because both `git clone` and `npx create-react-app` requires empty directories. Therefore, we have to create them in two separate directories and combine them manually later.###***
+   ***###Note that the git repository is cloned to "./Appointmeow" and the React app is created in "./appointmeow". This is because both `git clone` and `npx create-react-app` requires empty directories. Therefore, we have to create them in two separate directories and combine them manually later.***
 
 3. Copy everything from **./Appointmeow** directory into **./appoiontmeow** directory. Overwrite every file in the **./appointmeow** directory.
 
@@ -36,9 +36,9 @@ Python == 3.9.5
 
    `pip install -r requirements.txt`
 
-## Step 3:
+### Step 3:
 1. Make sure you are in the **appointmeow** directory.
 2. To start the **React App**, enter `yarn start` in terminal.
 3. To start the **Flask-API**, enter `yarn start-api` in terminal.
 
-***###Both "React App" and "Flask-API" should be running at the same time to ensure Appointmeow works properly.###***
+***###Both "React App" and "Flask-API" should be running at the same time to ensure Appointmeow works properly.***
