@@ -14,7 +14,7 @@ Python == 3.9.5
 ## Step 2:
 1. Clone the github repository to **./Appointmeow** directory
 
-`git clone https://github.com/Merxon22/Appointmeow.git ./Appointmeow`
+   `git clone https://github.com/Merxon22/Appointmeow.git ./Appointmeow`
 
 2. Enter the following command to first create a React app. This process usually takes a few minutes.
 
