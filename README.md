@@ -26,9 +26,10 @@ Python == 3.9.5
 
    After copying the files, you may remove the **./Appointmeow** directory.
 
-4. Then, enter the **./appointmeow** directory, install node modules:
+4. Then, enter the **./appointmeow** directory, install required node modules:
 
    `npm install antd`
+   
    `npm install react-router-dom`
 
 ## Step 3:
