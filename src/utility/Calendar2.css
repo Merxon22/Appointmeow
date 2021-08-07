@@ -1,0 +1,62 @@
+@import '~antd/dist/antd.css';
+ * {
+	margin: 0;
+	padding: 0;
+}
+.table {
+	border-collapse:collapse;
+	border-spacing: 0;
+}
+.table td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	min-width: 60px;
+}
+.table caption {
+	border-top: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.table caption .caption-header .arrow {
+	cursor: pointer;
+	font-family: "宋体";
+	transition: all 0.3s;
+}
+.table caption .caption-header .arrow:hover {
+	opacity:0.7;
+}
+.table tbody .mwTr td {
+	cursor: pointer;
+	position: relative;
+}
+.table tbody .mwTr .isToday {
+	background-color: #E0FFFF;
+	color: #33CCFF;
+}
+.table tbody .mwTr .noToday {
+	background-color: white;
+	color: #000;
+}
+.table tbody .mwTr .hoverStyle:hover{
+	background-color: #E0FFFF;
+}
+.table tbody .mwTr .day{
+	position: absolute;
+	top: 0;
+	right: 3px;
+}
+.table tbody .mwTr .grayColor{
+	color: #ddd;
+}
+.table tbody .mwTr .context{
+	margin-top: 5px;
+	max-height: 100px;
+	overflow-y: auto;
+}
+.table tbody .yearTr td {
+	width: 33%;
+}
+

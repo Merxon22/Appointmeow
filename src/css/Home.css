@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+body{
+  height: max-content;
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+}
+
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+.site-layout-sub-header-background {
+  background: rgb(236, 239, 243);
+  font-size: 60px;
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Viga;
+}
+
+.site-layout-background {
+  background: rgb(236, 239, 243);
+}
+
+.site-calendar-demo-card {
+  width: 300px;
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+  height: 645px;
+}
+
+.content-warp{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.display-detail-normal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 900px;
+  background-color: white;
+}
+
+.display-detail-small{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 820px;
+  background-color: white;
+}
+
+.home-event-card{
+  width: 800px;
+  text-align: center;
+}
