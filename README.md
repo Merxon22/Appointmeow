@@ -18,18 +18,18 @@ Python == 3.9.5
 
 2. Enter the following command to first create a React app. This process usually takes a few minutes.
 
-`npx create-react-app appointmeow`
+   `npx create-react-app appointmeow`
 
-***Note that the git repository is cloned to "./Appointmeow" and the React app is created in "./appointmeow". This is because both git clone and create-react-app requires an empty directory. Therefore, we have to create them in two different directories and combine them manually later.***
+   ***Note that the git repository is cloned to "./Appointmeow" and the React app is created in "./appointmeow". This is because both git clone and create-react-app requires an empty directory. Therefore, we have to create them in two different directories and combine them manually later.***
 
 3. Copy everything from **./Appointmeow** directory into **./appoiontmeow** directory. Overwrite every file in the **./appointmeow** directory.
 
-After copying the files, you can remove the **./Appointmeow** directory.
+   After copying the files, you can remove the **./Appointmeow** directory.
 
 4. Then, enter the **appointmeow** directory, install node modules:
 
-`npm install antd`
-`npm install react-router-dom`
+   `npm install antd`
+   `npm install react-router-dom`
 
 ## Step 3:
 1. Make sure you are in the **appointmeow** directory.
