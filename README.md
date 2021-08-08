@@ -12,32 +12,20 @@ Python == 3.9.5
 2. Install [Yarn](https://classic.yarnpkg.com/en/docs/install)
 
 ### Step 2:
-1. Clone the github repository to **./Appointmeow** directory.
+1. Clone the github repository.
 
-   `git clone https://github.com/Merxon22/Appointmeow.git ./Appointmeow`
+   `git clone https://github.com/Merxon22/Appointmeow.git`
 
-2. Enter the following command to first create a React app. This process usually takes a few minutes.
+2. Enter the **./Appointmeow** directory, install required **node modules**:
 
-   `npx create-react-app appointmeow`
-
-   ***###Note that the git repository is cloned to "./Appointmeow" and the React app is created in "./appointmeow". This is because both `git clone` and `npx create-react-app` requires empty directories. Therefore, we have to create them in two separate directories and combine them manually later.***
-
-3. Copy everything from **./Appointmeow** directory into **./appoiontmeow** directory. Overwrite every file in the **./appointmeow** directory.
-
-   After copying the files, you may remove the **./Appointmeow** directory.
-
-4. Enter the **./appointmeow** directory, install required **node modules**:
-
-   `npm install antd`
+   `npm install`
    
-   `npm install react-router-dom`
-
-   Install **pip packages**:
+3. In the **Appointmeow** directory, install **pip packages**:
 
    `pip install -r requirements.txt`
 
 ### Step 3:
-1. Make sure you are in the **appointmeow** directory.
+1. Make sure you are in the **Appointmeow** directory.
 2. To start the **React App**, enter `yarn start` in terminal.
 3. To start the **Flask-API**, enter `yarn start-api` in terminal.
 
