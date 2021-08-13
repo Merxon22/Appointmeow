@@ -11,7 +11,8 @@ createUserTable = """
         userID INT NOT NULL AUTO_INCREMENT PRIMARY KEY UNIQUE,
         email VARCHAR(80) NOT NULL UNIQUE,
         password VARCHAR(32) NOT NULL,
-        identity VARCHAR(16) NOT NULL
+        identity VARCHAR(16) NOT NULL,
+        loginKey VARCHAR(80)
     )
 """
 
